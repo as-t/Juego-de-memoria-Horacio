@@ -2,36 +2,14 @@
 
 import UIKit
 
-
-
 var enteros = 0...100
-
-
 for i in enteros  {
     
     if i%5==0 {
-        
-        print("\(i)" + " Bingo")                  // Imprime divisores de 5
-        
-    }
-    
-}
-
-for i in enteros  {
-    
+        print("\(i)" + " Bingo")}
     if i%2==0 {
-        
         print("\(i)" + " Par")
-        
-    }else if i%2>0 {print("\(i)" + " Impar")}    //Imprime los Pares e Impares
-    
-}
-
-
-for i in enteros  {
-    
+    }else if i%2>0 {print("\(i)" + " Impar")}
     if i>=30 && i<=40{
-        
-        print("\(i)" + " Viva"+" Swift")           // Imprime el rango de 30 a 40
-    }
+        print("\(i)" + " Viva"+" Swift") }
 }
